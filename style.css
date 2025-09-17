@@ -155,3 +155,7 @@ main {
     background-color: #df3a6b;
     color: white;
 }
+
+.heading-link {
+    text-decoration: None;
+}
