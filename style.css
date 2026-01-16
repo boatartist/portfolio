@@ -159,3 +159,11 @@ main {
 .heading-link {
     text-decoration: None;
 }
+
+.education-grid {
+    display: grid;
+}
+
+.education-grid div {
+    padding: 10px;
+}
