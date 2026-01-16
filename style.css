@@ -1,3 +1,12 @@
+:root {
+    --black-forest: #243010;
+    --dark-spruce: #2A3C24;
+    --muted-teal: #9ABD97;
+    --rosy-taupe: #C49991;
+    --night-bordeaux: #6A041D;
+}
+
+
 body {
     font-family: 'Imprima', sans-serif;
 
@@ -162,8 +171,20 @@ main {
 
 .education-grid {
     display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .education-grid div {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
     padding: 10px;
+    margin: 5px;
+}
+
+/* .hsc {
+  grid-row: 1 / span 2;
+} */
+
+.testimonial {
+    background-color: ;
 }
