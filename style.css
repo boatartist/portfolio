@@ -33,7 +33,7 @@ body {
     background-color: var(--dark-spruce);
     padding: 10px;
     margin-top: 30px;
-    
+    color: white;
 }
 
 .banner h1 {
@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-    color: #32a864;
+    color: var(--night-bordeaux);
     font-size: 18px
 }
 
@@ -167,6 +167,12 @@ main {
 
 .heading-link {
     text-decoration: None;
+    color: var(--night-bordeaux);
+}
+
+.banner-link {
+    text-decoration: None;
+    color: var(--rosy-taupe);
 }
 
 .education-grid {
