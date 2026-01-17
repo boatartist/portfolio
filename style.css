@@ -195,11 +195,9 @@ main {
     margin: 5px;
 }
 
-/* .hsc {
-  grid-row: 1 / span 2;
-} */
-
 .testimonial {
-    background-color: var(--rosy-taupe);
-    padding: 15px;
+  grid-column: 2 / span 2;
+  background-color: var(--rosy-taupe);
+  border-width: 0;
 }
+
