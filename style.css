@@ -24,7 +24,7 @@ body {
 }
 
 .banner {
-    background-color: var(--dark-spruce);
+    background-color: var(--muted-teal);
     padding: 10px;
     margin-top: 30px;
     color: white;
