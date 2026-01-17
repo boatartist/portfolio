@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans');
+
 :root {
     --black-forest: #243010;
     --dark-spruce: #2A3C24;
@@ -8,7 +10,7 @@
 
 
 body {
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 
     font-size: 12px;
     max-width: 960px;
