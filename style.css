@@ -153,6 +153,11 @@ main {
     border-right: 1px solid lightgray;
 }
 
+.links {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .link-btn {
     background-color: var(--muted-teal);
     padding: 10px;
