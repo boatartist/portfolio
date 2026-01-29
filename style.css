@@ -23,11 +23,15 @@ body {
     margin-top: 3em;
 }
 
-.banner {
+.banner, .collapsible {
     background-color: var(--muted-teal);
     padding: 10px;
     margin-top: 30px;
     color: white;
+}
+
+.active, .collapsible:hover {
+  background-color: var(--dark-spruce);
 }
 
 h1 {
