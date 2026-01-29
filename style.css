@@ -34,6 +34,24 @@ body {
   background-color: var(--rosy-taupe);
 }
 
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 h1 {
     font-size: 36px;
     font-weight: normal;
