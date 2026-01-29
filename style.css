@@ -31,7 +31,7 @@ body {
 }
 
 .active, .collapsible:hover {
-  background-color: var(--dark-spruce);
+  background-color: var(--rosy-taupe);
 }
 
 h1 {
