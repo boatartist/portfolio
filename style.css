@@ -133,7 +133,7 @@ ul li::before {
 }
 
 
-main {
+main .active{
     padding: 0px 40px 40px 40px; 
 }
 
