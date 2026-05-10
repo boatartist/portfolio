@@ -176,6 +176,10 @@ main .active{
     color: white;
 }
 
+.banner-link:hover {
+    color: rgb(100, 100, 100);
+}
+
 .education-grid {
     display: grid;
     grid-template-columns: auto auto auto;
